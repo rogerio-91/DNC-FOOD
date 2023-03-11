@@ -1,0 +1,36 @@
+@use '../../sass/variables' as *;
+
+.home__card {
+    text-align: center;
+    border: $border-cards;
+    width: 270px;
+    height: 280px;
+    border-radius: $radius8;
+    margin: 50px 70px 70px 70px;
+
+    
+    p {
+        margin: 0.5em;
+    }
+
+    img {
+        border-top-right-radius: $radius8;
+        border-top-left-radius: $radius8;
+        max-width:100%;
+        height:auto;
+    }
+
+    button {
+        width: 128px;
+        height: 24px;
+        margin: 5px;
+        border: none;
+        background: $header-background;
+        cursor: pointer;
+    }
+
+    button a {
+        text-decoration: none;
+        color: $white;
+    }
+}
